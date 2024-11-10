@@ -22,7 +22,8 @@ export default function ResultPage({ result }) {
             <p>{emotionResult.negative.join(', ')}</p>
             <p className="section-title">보완점</p>
             <p>{emotionResult.effort.join(', ')}</p>
-            <a href="/" className="button">테스트 다시하기</a>
+            <a href="/coreemotion" className="button">테스트 다시하기</a>
+            <a href="/" className="button">처음으로</a>
         </div>
     );
 }
